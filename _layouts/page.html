@@ -9,9 +9,11 @@
 {% include head.html %}
 
 <body>
-
-    {% include header.html %} {{ content }} {% include footer.html %}
-
+  {% include header.html %}
+  <section style="padding: 2em;">
+     {{ content }}
+  </section>
+  {% include footer.html %}
 </body>
 
 </html>

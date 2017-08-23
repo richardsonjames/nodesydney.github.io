@@ -10,7 +10,7 @@
 		background-color: _palette(bg-alt);
 
 		> * {
-			border-top: solid 1px _palette(border);
+			border-top: 1px solid _palette(border);
 
 			&:first-child {
 				border-top: 0;
@@ -22,5 +22,21 @@
 		&.alt {
 			background-color: transparent;
 			border-bottom: solid 1px _palette(border);
+		}
+
+	}
+
+	#about {
+		border-top: 1px solid #aaa;
+		.stat {
+			background-color: _palette(fg-light);
+			border: 1px solid #242943;
+    	line-height: 1.4em;
+    	margin-bottom: 1em;
+    	padding: 1em 1.5em;
+			strong {
+				display: block;
+				font-size: 1.2em;
+			}
 		}
 	}
