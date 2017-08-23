@@ -1,6 +1,5 @@
 # site settings
-title: Node
-subtitle: Sydney
+title: NodeSydney
 email: contact@nodesydney.com
 description: Your local Node.js community
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -12,10 +11,6 @@ state: NSW
 zip_code: 2000
 country: Australia
 phone:
-
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
 
 # social settings
 500px_url:

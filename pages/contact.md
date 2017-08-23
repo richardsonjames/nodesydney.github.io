@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contact us
-landing-title: 'Contact us'
 description: null
 image: null
 author: null
