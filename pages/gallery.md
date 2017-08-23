@@ -2,8 +2,7 @@
 layout: page
 title: Gallery
 description: null
-image: null
-author: null
+nav-menu: true
 ---
 
 # Photo gallery
